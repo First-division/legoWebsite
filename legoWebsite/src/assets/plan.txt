@@ -1,10 +1,36 @@
-* Features:
+* Features: // TODO
+    * image upload
+    * image and size editer
+    * 
 
-* Layout:
-
+* Layout: // TODO
+    * Dark and 3d movement with mouse movment
 * Theme:
 
 * Requirements:
-    From user:
+    From user: 
 
-    From team:
+    From team: Domain
+
+
+
+* Pages: 0/3
+
+    // TODO Page #1: HOME PAGE
+        * shows list of products (LEGO side)
+        * select either a pre printed piece or custom
+        * if custom have the ability to put your own custom text or image on 
+            a reference piece and have the option for a color
+
+        // TODO Page #1: Custom lego
+            * shows list of products (LEGO side)
+            * select either a pre printed piece or custom
+            * if custom have the ability to put your own custom text or image on 
+              a reference piece and have the option for a color
+        
+        // TODO Page #2: Custom manufacturing
+            * shows list of products (LEGO side)
+            * select either a pre printed piece or custom
+            * if custom have the ability to put your own custom text or image on 
+              a reference piece and have the option for a color
+        

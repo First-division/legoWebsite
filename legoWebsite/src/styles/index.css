@@ -21,20 +21,23 @@ a {
 a:hover {
   color: #535bf2;
 }
-
-body {
-  background-image: url('src/assets/mainPageBackground.png');
-  background-size: cover;      /* Makes the image cover the whole background */
-  background-repeat: no-repeat; /* Prevents tiling */
-  background-position: center;  /* Centers the image */
-
-
+html, body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  /* TODO: this is for how the home page reacts and stuff like setting size and repsonseinvens*/
 }
+
+
+canvas {
+  display: block;
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
 
 h1 {
   font-size: 3.2em;
@@ -71,4 +74,11 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.text {
+  padding: 20px;
+  color: black;
+  justify-content: center;
+  text-align: center;
 }
