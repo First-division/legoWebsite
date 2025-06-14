@@ -62,6 +62,16 @@ const WireframeBackground = () => {
     };
 
     const handleMove = (e) => {
+      // Ignore if mouse is over nav or .liquid-box
+      const el = document.elementFromPoint(e.clientX, e.clientY);
+      if (
+        el?.closest('.nav') ||
+        el?.closest('.liquid-box')
+      ) {
+        mouse.current.x = -9999; // Move mouse far away so no line is highlighted
+        mouse.current.y = -9999;
+        return;
+      }
       mouse.current.x = e.clientX;
       mouse.current.y = e.clientY;
     };

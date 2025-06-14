@@ -1,0 +1,29 @@
+.scroll-arrow {
+  opacity: 1;
+  transition: 
+    opacity 0.4s,
+    transform 0.8s cubic-bezier(0.4,2,0.6,1);
+}
+
+.scroll-arrow.at-bottom {
+  animation: spin-fall 1.2s forwards;
+}
+
+@keyframes spin-fall {
+  0% {
+    opacity: 1;
+    transform: translateX(-50%) rotate(0deg) translateY(0);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(-50%) rotate(360deg) translateY(0);
+  }
+  80% {
+    opacity: 0.8;
+    transform: translateX(-50%) rotate(380deg) translateY(20px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) rotate(420deg) translateY(80px);
+  }
+}

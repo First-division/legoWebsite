@@ -1,11 +1,11 @@
 * Features: // TODO
     * image upload
     * image and size editer
-    * 
+    * image sender to email
 
-* Layout: // TODO
+* Layout: // DONE
     * Dark and 3d movement with mouse movment
-* Theme:
+* Theme: TOPO / Wireframe
 
 * Requirements:
     From user: 
