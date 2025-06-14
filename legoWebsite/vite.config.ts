@@ -15,3 +15,7 @@ export default defineConfig({
   base: 'legoWebsite', 
   plugins: [react()],
 })
+
+// https://first-division.github.io/legoWebsite // 
+
+// https://<your-username>.github.io/<YOUR_REPOSITORY_NAME>/ //

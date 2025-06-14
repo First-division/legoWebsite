@@ -79,3 +79,77 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+/* =======================
+   GLOBAL RESPONSIVE STYLES
+   ======================= */
+@media (max-width: 900px) {
+  .liquid-box,
+  .box-2 {
+    max-width: 95vw;
+    padding: 1.2rem 0.8rem;
+    min-height: 180px;
+    font-size: 1em;
+  }
+  .home-Page-Title h1 {
+    font-size: 2em;
+    max-width: 95vw;
+    padding: 0 0.5em;
+  }
+}
+
+@media (max-width: 600px) {
+  .liquid-box,
+  .box-2 {
+    max-width: 99vw;
+    padding: 0.7rem 0.3rem;
+    min-height: 120px;
+    font-size: 0.95em;
+    border-radius: 14px;
+  }
+  .home-Page-Title h1 {
+    font-size: 1.3em;
+    max-width: 99vw;
+    padding: 0 0.2em;
+  }
+  .home-Page-Title {
+    padding: 0.5em 0;
+  }
+}
+
+/* Responsive for nav bar (if you use .nav, .nav-center, etc.) */
+@media (max-width: 900px) {
+  .nav {
+    flex-direction: column;
+    padding: 0.5rem 0.5rem;
+    border-radius: 16px;
+    max-width: 99vw;
+  }
+  .nav-center ul {
+    gap: 1.2rem;
+    padding: 10px 0;
+    flex-wrap: wrap;
+  }
+  .nav-left {
+    padding-left: 0.5rem;
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+    padding: 0.2rem 0.2rem;
+    border-radius: 10px;
+    max-width: 99vw;
+  }
+  .nav-center ul {
+    gap: 0.7rem;
+    padding: 6px 0;
+    flex-wrap: wrap;
+  }
+  .nav-left {
+    padding-left: 0.2rem;
+    font-size: 1em;
+  }
+}
