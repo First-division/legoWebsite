@@ -1,6 +1,6 @@
 import NavBar from "./components/NavBar";
 import TopoBackground from "./components/TopoBackground"
-import { Route, Routes} from "react-router-dom";
+import { Route, Routes, Navigate} from "react-router-dom";
 
 import Home from "./pages/homePage";
 import LegoPage from "./pages/legoPage";
@@ -14,15 +14,15 @@ function App() {
       <TopoBackground />
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/homePage" element={<Home />} />
         <Route path="/legoPage" element={<LegoPage />} />
         <Route path="/customsPage" element={<OtherCustomsPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/" element={<Home />} />
-        {/* Default route to Home page */}
-        <Route path="*" element={<Home />} />
-        {/* Catch-all route to Home page */}
+        
+        { /* <Route path="*" element={<Home />} /> */ }
+        <Route path="*" element={<Navigate to="/homePage" replace />} />
       </Routes>
 
       

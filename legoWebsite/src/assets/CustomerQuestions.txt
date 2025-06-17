@@ -1,51 +1,3 @@
-* Features: // TODO
-    * image upload
-    * image and size editer
-    * image sender to email
-
-* Layout: // DONE
-    * Dark and 3d movement with mouse movment
-* Theme: TOPO / Wireframe
-
-* Requirements:
-    From user: 
-
-    From team: Domain
-
-
-
-* Pages: 0/3
-
-    // TODO Page #1: HOME PAGE
-        * shows list of products (LEGO side)
-        * select either a pre printed piece or custom
-        * if custom have the ability to put your own custom text or image on 
-            a reference piece and have the option for a color
-
-        Page #2: Custom lego (2 parts)
-            * select either a pre printed piece or custom
-
-            Part 1: Premade lego slection:
-                * shows list of products (LEGO side)
-                * if custom have the ability to put your own custom text or image on 
-            Part 2: custom lego slection:
-                * a reference piece and have the option for a color with option of an image and or text
-
-
-                
-
-
-
-        // TODO Page #2: Custom manufacturing
-            * shows list of products (LEGO side)
-            * select either a pre printed piece or custom
-            * if custom have the ability to put your own custom text or image on 
-              a reference piece and have the option for a color
-
-
-
-* Questions for client:
-
 General Website Goals
 
 What is the main purpose or mission of this website?
@@ -122,5 +74,3 @@ Things I will evenutally need:
 * Shipping options, rates, and regions served
 * Order minimums/maximums for custom pieces
 * Preferences for order notifications and customer communication
-
-        
